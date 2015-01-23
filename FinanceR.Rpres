@@ -1,0 +1,73 @@
+FinanceR
+========================================================
+author: Ruslan Kharitonov
+date: 
+
+Overview
+========================================================
+
+- Why R?
+- Installation of R, RStudio, and Packages
+- Getting and analyzing Stocks
+- Getting and analyzing Twitter and New Feeds
+- Doing Sentiment Analysis on Stocks 
+
+Standard Programming Languages for Finance
+========================================================
+- C++ common for trading & risk systems
+   - Great performance 
+   - Targeted for complex enterprise system
+   - Complex and usually requires Computer Science background
+   - Limited Open Source Libraries for Finance   
+- Java
+   - Most popular languages (http://langpop.com)
+   - Garbage collection, platform independent, etc.
+   - Slower performance due to Garbage collection and JVM
+   - Limited Open Source Libraries for Finance
+   
+Vendor Programming Languages for Finance
+========================================================
+- MATLAB 
+   - Expensive
+
+
+- KDB/Q
+   - Popular in quantitative finance
+   - Designed for performance and Time Series data
+   - Complex Syntax
+   - Very Expensive
+
+Specialized Programming Languages for Finance
+========================================================
+- VBA in Excel
+   - Simple to learn
+   - Used in Excel with statistical functions
+   - Limited in functionality and libraries
+   - Slow Performance 
+- Open Source R (TIBCO S-PLUS and Revolution R) 
+
+Installing R & RStudio
+========================================================
+- Download & Install
+   - http://cran.rstudio.com/ (or Homebrew on MacOSX)
+   - http://www.rstudio.com/products/rstudio/download/
+   - http://xquartz.macosforge.org/ (MacOSX only)
+
+Finance R Packages
+========================================================
+
+- http://cran.r-project.org/web/views/Finance.html
+   - https://www.rmetrics.org/
+   - http://quantlib.org/
+   - http://www.quantmod.com/
+```{r eval=FALSE}
+install.packages('kinitr') ## for R P
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
+
